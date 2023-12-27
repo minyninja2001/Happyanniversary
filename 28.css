@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(228, 178, 187);
+    overflow-x: hidden;
+}
+
+.image p {
+    opacity: 0;
+}
+
+.image {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    height: 70vh;
+    min-width: 200px;
+    
+}
+
+.FirstText, .lastText{
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    
+}
+.FirstText::first-letter {
+    font-size: 55px;
+    font-style: italic;
+    color: darkcyan;
+}
+
+
+a.button {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: color 300ms;
+    margin: 20px;
+}
+
+a:hover{
+    background-color: rgb(212, 90, 90);
+    color: white;
+}
+
+#Video2 {
+    position: relative;
+    left: 43%;
+}
+
+.mysound {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: color 300ms;
+    margin: 20px;
+    
+}
+
+.yellow, .myAudio{
+   display: inline-block;
+    padding: 20px 40px;
+    background-color: rgba(236, 236, 28, 0.788);
+    border-radius: 10% 30%;
+    text-align: center;
+}
+.yellow, .myAudio button {
+    margin: 5px;
+}
+
+
+
+
